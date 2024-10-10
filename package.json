@@ -1,0 +1,24 @@
+{
+  "name": "ts-playground",
+  "version": "1.0.0",
+  "description": "El proyecto consiste en crear un servidor web multipropósito que sirva archivos estáticos asi como una web API para obtener información de canciones categorizadas por artista y género musical.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "start": "node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.16.2",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "mime-types": "^2.1.35"
+  }
+}
